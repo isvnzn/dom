@@ -15,6 +15,9 @@ container.appendChild(headingBlue);
 const div = document.createElement("div");
 div.setAttribute("style", "border: 1px solid black; background-color: pink;");
 
+const heroText = document.createElement("h1");
+heroText.textContent = "I'm in a div";
 
+div.appendChild(heroText);
 
 container.appendChild(div);
