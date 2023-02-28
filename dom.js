@@ -20,4 +20,9 @@ heroText.textContent = "I'm in a div";
 
 div.appendChild(heroText);
 
+const heroSubtext = document.createElement("p");
+heroSubtext.textContent = "ME TOO!";
+
+div.appendChild(heroSubtext);
+
 container.appendChild(div);
