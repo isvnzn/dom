@@ -11,3 +11,10 @@ headingBlue.textContent = "I'm a blue h3!";
 headingBlue.style.color = "blue";
 
 container.appendChild(headingBlue);
+
+const div = document.createElement("div");
+div.setAttribute("style", "border: 1px solid black; background-color: pink;");
+
+
+
+container.appendChild(div);
